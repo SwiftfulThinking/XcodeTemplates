@@ -35,7 +35,7 @@ struct ___VARIABLE_productName:identifier___View: View {
 
 extension ___VARIABLE_coreName:identifier___Builder {
     
-    func ___VARIABLE_camelCasedProductName:identifier___View(router: AnyRouter, delegate: ___VARIABLE_productName:identifier___Delegate = ___VARIABLE_productName:identifier___Delegate()) -> some View {
+    func ___VARIABLE_camelCasedProductName:identifier___View(router: AnyRouter, delegate: ___VARIABLE_productName:identifier___Delegate) -> some View {
         ___VARIABLE_productName:identifier___View(
             presenter: ___VARIABLE_productName:identifier___Presenter(
                 interactor: interactor,
@@ -49,7 +49,7 @@ extension ___VARIABLE_coreName:identifier___Builder {
 
 extension ___VARIABLE_coreName:identifier___Router {
     
-    func show___VARIABLE_productName:identifier___View(delegate: ___VARIABLE_productName:identifier___Delegate = ___VARIABLE_productName:identifier___Delegate()) {
+    func show___VARIABLE_productName:identifier___View(delegate: ___VARIABLE_productName:identifier___Delegate) {
         router.showScreen(.push) { router in
             builder.___VARIABLE_camelCasedProductName:identifier___View(router: router, delegate: delegate)
         }
