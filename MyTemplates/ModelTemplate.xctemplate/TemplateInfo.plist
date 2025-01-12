@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.macosx</string>
+	</array>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Destination</key>
+	<string>Group</string>
+	<key>FileGroup</key>
+	<string>___VARIABLE_modelName___</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>modelName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Model Name:</string>
+			<key>Description</key>
+			<string>The name of the Model</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>ModelName</string>
+			<key>Values</key>
+			<array>
+				<string>VIPER</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>lowercasedmodelname</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>lowercased abbr. model name:</string>
+			<key>Description</key>
+			<string>The model name with the first letter lowercased</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>model</string>
+		</dict>
+	</array>
+</dict>
+</plist>
