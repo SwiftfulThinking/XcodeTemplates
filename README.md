@@ -1,6 +1,16 @@
+### 🚀 Learn how to build and use this package: https://www.swiftful-thinking.com/offers/REyNLwwH
+
 # XcodeTemplates
 
-Xcode Templates for VIPER/RIBs in SwiftUI.
+Xcode Templates for complex architecture in SwiftUI.
+
+✅ RIB Template
+
+✅ VIPER Template
+
+✅ Model Template
+
+✅ Manager Template
 
 ## Steps to add on your computer:
 
